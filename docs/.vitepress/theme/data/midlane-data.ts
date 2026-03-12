@@ -24,7 +24,7 @@ export const MIDLANE_DATA: MindmapNode = {
   children: [
     {
       id: 'laning',
-      label: '对线期',
+      label: '对线期(以中一塔为评判标准,中一塔掉了进入换线期)',
       icon: '⚔️',
       color: '#e74c3c',
       children: [

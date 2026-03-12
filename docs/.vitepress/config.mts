@@ -1,10 +1,11 @@
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
 
 // LOL 心得笔记 - VitePress 配置
 export default defineConfig({
   title: 'LOL 心得笔记',
   description: '我的英雄联盟知识库 — 英雄攻略、游戏理解、心态管理',
   lang: 'zh-CN',
+  lastUpdated: true,
 
   themeConfig: {
     // ========== 顶部导航 ==========
