@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /d/workspace/hanford/LOL/fizz-guide -name \"*.jsx\" -o -name \"*.tsx\" -o -name \"*.vue\" 2>/dev/null | grep -v node_modules)",
+      "Bash(npm install:*)",
+      "Bash(mkdir -p /d/workspace/hanford/LOL/fizz-guide/docs/.vitepress/theme/components && mkdir -p /d/workspace/hanford/LOL/fizz-guide/docs/game/panorama)",
+      "Bash(npm run:*)",
+      "Bash(tree \"D:\\\\workspace\\\\hanford\\\\LOL\\\\fizz-guide\" -L 3 -I 'node_modules|.idea|cache' 2>/dev/null || find \"D:\\\\workspace\\\\hanford\\\\LOL\\\\fizz-guide\" -not -path \"*/node_modules/*\" -not -path \"*/.idea/*\" -not -path \"*/.vitepress/cache/*\" -type d | head -40)"
+    ]
+  }
+}

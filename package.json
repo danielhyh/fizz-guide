@@ -1,0 +1,19 @@
+{
+  "name": "fizz-guide",
+  "version": "1.0.0",
+  "description": "Diamond Fizz 对线知识库 & 游戏理解",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "markmap-lib": "^0.18.12",
+    "markmap-toolbar": "^0.18.12",
+    "markmap-view": "^0.18.12"
+  }
+}
